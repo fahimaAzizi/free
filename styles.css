@@ -1,51 +1,57 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #eaeaea; /* Lighter shade for a modern look */
-  color: #555; /* Slightly darker text for better readability */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f4f4; /* Neutral, soft background for minimal eye strain */
+  color: #333; /* Deep gray for strong contrast and legibility */
   text-align: center;
   margin: 0;
   padding: 20px;
 }
 
 #game {
-  max-width: 600px;
-  margin: auto;
-  background: #ffffff; /* Pure white for a crisp look */
-  padding: 25px; /* Increased padding for more space */
-  border-radius: 10px; /* More pronounced rounding */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow for depth */
+  max-width: 650px;
+  margin: 40px auto; /* Centered with more vertical space */
+  background: #fff; /* Clean, white background */
+  padding: 30px; /* Generous padding for a spacious layout */
+  border-radius: 15px; /* Soft, modern rounding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Subtle, multi-layered shadow for depth */
 }
 
 #stats, #monsterStats {
-  background-color: #f9f9f9; /* Even lighter than before for contrast */
-  padding: 15px; /* More padding for better spacing */
-  border-radius: 10px; /* Matching the game box's border radius */
-  margin-bottom: 25px; /* More space between sections */
+  background-color: #f7f7f7; /* Slightly off-white for soft contrast */
+  padding: 20px; /* Uniform padding for consistency */
+  border-radius: 15px; /* Consistent with the game container */
+  margin-bottom: 30px; /* Increased space between sections for clarity */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for subtle depth */
 }
 
 .stat {
   display: inline-block;
-  margin-right: 20px; /* Increased spacing between stats */
+  margin: 0 25px; /* More balanced spacing */
+  font-size: 16px; /* Larger font for better readability */
 }
 
 button {
-  background-color: #008CBA; /* A different shade of blue for a fresh look */
-  color: white;
+  background-color: #005f73; /* Stylish, dark cyan for a professional look */
+  color: #fff;
   border: none;
-  padding: 12px 24px; /* Slightly larger buttons for easier interaction */
-  margin: 10px; /* Increased margin for more separation */
-  border-radius: 6px; /* Subtly more rounded corners */
+  padding: 15px 30px; /* More pronounced button size for easier clickability */
+  margin: 12px; /* Slightly increased margin for visual separation */
+  border-radius: 8px; /* Modern, subtle rounding */
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s; /* Added transform for feedback */
+  font-size: 16px; /* Larger font size for readability */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions for interactions */
 }
 
-button:hover {
-  background-color: #007099; /* A deeper blue on hover */
-  transform: scale(1.05); /* Slight increase in size on hover for feedback */
+button:hover, button:focus {
+  background-color: #003d4d; /* Darker shade for hover and focus states */
+  transform: translateY(-2px); /* Slight lift effect for interactivity */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
 }
 
 #text {
-  margin-top: 25px; /* More space above the text */
-  text-align: justify; /* Keeps existing alignment */
-  padding: 0 10px; /* Added padding for better readability on wide screens */
+  margin-top: 30px; /* Adjusted spacing */
+  text-align: justify; /* Improved readability for block text */
+  padding: 0 15px; /* Slightly increased padding */
+  font-size: 18px; /* Larger base font size for easy reading */
+  line-height: 1.6; /* Increased line height for readability */
 }
