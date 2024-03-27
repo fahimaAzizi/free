@@ -82,14 +82,4 @@ body {
     color: black;
   }
   
-  a:visited {
-    color: black;
-  }
   
-  a:hover {
-    color: brown;
-  }
-  
-  a:active {
-    color: brown;
-  }
